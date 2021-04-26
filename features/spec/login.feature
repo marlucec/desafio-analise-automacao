@@ -18,6 +18,5 @@ Funcionalidade: Login no Ecommerce Fake
   @login_falhou
   # Completar o cenário abaixo
   Cenário: Login com falha
-  Quando tentar logar com usuário 'm@gmail.com' inválido
-  E Senha '123' inválida
+  Quando tentar logar com usuário 'm@gmail.com' inválido e Senha '123' inválida
   Então o acesso será negado
